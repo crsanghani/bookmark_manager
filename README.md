@@ -11,22 +11,17 @@ As a user
 so that I can tell which content is new
 I want the list to be sorted chronologically
 
-
 New links can be added
 
 As a user
 so that I can visit a new website
 I want to be able to add to the list of links
 
-
-
 Links can be tagged
 
 As a user
 so that I can group content
 I would like to be able to add a tag to links
-
-
 
 Links can be filtered by a tag
 
