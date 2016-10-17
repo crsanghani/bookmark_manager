@@ -38,16 +38,16 @@
 
 CRUD is an acronym that describes the four basic funtions used in the manipulation of persitent storage. CRUD stands for:
 
-Create - creating data ready for storage
-Read - retrieving data and presenting it to users
-Update - changing existing records
-Delete - removing data from a system
+Create - creating data ready for storage   
+Read - retrieving data and presenting it to users   
+Update - changing existing records   
+Delete - removing data from a system   
 
 SQL (Structured Query Language) is a language for managing databases. Several of its commands are used in the completion of the CRUD actions:
 
-INSERT is used to create data entries
-SELECT is used to extact data from a database to be presented to users
-UPDATE is used t0 make changes
-DELETE is used to remove entries from a database
+INSERT is used to create data entries   
+SELECT is used to extact data from a database to be presented to users   
+UPDATE is used to make changes   
+DELETE is used to remove entries from a database   
 
 And there we have a brief explanation CRUD and SQL.
