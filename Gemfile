@@ -7,12 +7,11 @@ gem 'data_mapper'
 gem 'dm-postgres-adapter'
 gem 'pry'
 gem 'sinatra'
-gem 'rerun'
 gem 'rake'
-gem 'database_cleaner'
 
 group :test do
   gem 'rspec'
   gem 'capybara'
   gem 'rspec-sinatra'
+  gem 'database_cleaner'
 end
