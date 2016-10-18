@@ -14,6 +14,7 @@ feature 'Viewing links' do
 
     within 'ul#links' do
       expect(page).to have_content('Makers Academy')
+      Link.last.destroy
     end
   end
 end
