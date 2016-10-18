@@ -9,6 +9,7 @@ gem 'pry'
 gem 'sinatra'
 gem 'rerun'
 gem 'rake'
+gem 'database_cleaner'
 
 group :test do
   gem 'rspec'

@@ -11,6 +11,5 @@ feature 'create links' do
     within 'ul#links' do
       expect(page).to have_content 'Google'
     end
-    Link.last.destroy
   end
 end
