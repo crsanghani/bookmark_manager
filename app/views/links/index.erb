@@ -1,0 +1,12 @@
+<h1> Links </h1>
+
+<ul id="links">
+  <% @links.each do |link| %>
+    <li>
+      ID: <%= link.id %> &nbsp;
+      Title: <a href="<%= link.url %>"><%= link.title %></a> &nbsp;
+      URL: <%= link.url %>
+      Created on: <%= link.created_at.strftime('%I:%M:%S %p') %>
+    </li>
+  <% end %>
+</ul>
