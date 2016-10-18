@@ -6,7 +6,9 @@
       ID: <%= link.id %> &nbsp;
       Title: <a href="<%= link.url %>"><%= link.title %></a> &nbsp;
       URL: <%= link.url %>
+      Tags: <%= link.tags %>
       Created on: <%= link.created_at.strftime('%I:%M:%S %p') %>
     </li>
   <% end %>
 </ul>
+<a href="links/new">Add new Bookmark</a>
