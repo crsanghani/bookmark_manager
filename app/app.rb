@@ -8,6 +8,7 @@ require_relative 'models/link'
 require_relative 'models/user'
 
 class BookmarkManager < Sinatra::Base
+use Rack::MethodOverride
 register Sinatra::Flash
   enable :sessions
   set :session_secret, 'super secret'
@@ -77,6 +78,11 @@ register Sinatra::Flash
     end
   end
 
+  delete '/sessions' do
+    session[:user_id] = nil
+    flash.keep[:notice] = 'goodbye!'
+    redirect to '/links'
+  end
 
   helpers do
     def current_user
